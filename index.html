@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipek Meble</title>
+    <link rel="shortcut icon" href="img/slide3.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/prototype.js"></script>
+    <script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="img/slide1.png">
+            <img src="img/slide2.png">
+            <img src="img/slide3.png">
+            <img src="img/slide4.png">
+            <img src="img/slide5.png">
+        </figure>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#home">HOME</a>
+            </li>
+            <li>
+                <a href="#gallery">GALERIA</a>
+            </li>
+            <li>
+                <a href="#effects">EFEKTY</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="sekcja1" id="home">
+        <h2>Home</h2>
+        <p>Jesteśmy FILIPEK MEBLE, firmą zajmującą się remontowaniem oraz dekorowaniem domów. Mamy na koncie kilkanaście lat pracy z najlepszymi dekoratorami wnętrz. Średnia opinii wystawionych przez klientów wynosi 5.0, co może zagwarantować dobrą jakość naszych usług.</p>
+    </section>
+    <div id="parallax1"></div>
+    <section class="sekcja2" id="gallery">
+        <h2>Galeria</h2>
+        <p>W poniższej galerii przedstawione są zdjęcia pokoi udekorowanych przez naszą firmę.</p>
+        <p class="galeria">
+            <a href="gallery/1.png" rel="lightbox(roadtrip)" title="Barwnik"><img src="gallery/1_M.png"></a>
+            <a href="gallery/2.png" rel="lightbox(roadtrip)" title="Farby"><img src="gallery/2_M.png"></a>
+            <a href="gallery/3.png" rel="lightbox(roadtrip)" title="Farby"><img src="gallery/3_M.png"></a>
+        </p>
+    </section>
+    <div id="parallax2"></div>
+    <section class="sekcja3" id="effects">
+        <h2>Efekty</h2>
+        <p>Wizualizacja efektów naszej pracy. Posiadamy w swojej drużynie profesjonalistów w tej dziedzinie, którzy zajmują się dekorowaniem wnętrz od ponad 10 lat.</p>
+        <p class="efekty">
+            <img src="img/effect1.png" class="obraz">
+            <img src="img/effect2.png" class="obraz">
+            <img src="img/effect3.png" class="obraz">
+            <img src="img/effect4.png" class="obraz">
+        </p>
+    </section>
+    <div id="parallax3"></div>
+    <footer>
+        <p class="icons">
+            <a onMouseOver="z1.src='img/TwitterB.svg'" onMouseOut="z1.src='img/Twitter.svg'" href="http://twitter.com" target="_blank">
+                <img src="img/Twitter.svg" name="z1">
+            </a>
+            <a onMouseOver="z2.src='img/GithubB.svg'" onMouseOut="z2.src='img/Github.svg'" href="http://github.com" target="_blank">
+                <img src="img/Github.svg" name="z2">
+            </a>
+            <a onMouseOver="z3.src='img/LinkedinB.svg'" onMouseOut="z3.src='img/Linkedin.svg'" href="http://linkedin.com" target="_blank">
+            <img src="img/Linkedin.svg" name="z3">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
